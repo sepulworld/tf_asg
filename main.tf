@@ -49,4 +49,4 @@ resource "aws_autoscaling_group" "asg" {
     value = "${var.team}"
     propagate_at_launch = true
   }
-
+}
